@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couto Flix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <h1>
+                Couto Flix
+            </h1>
+            <div class="dropdown">
+                <button data-bs-toggle="dropdown" class="btn btn-light dropdown-toggle"> Menu </button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                        <a href="#carrosselImagem"> Filmes</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="#ultimosLancamentos"> Últimos lançamentos </a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="#redes"> Nossas redes </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+            <div id="carrosselImagem" class="carousel slide carousel-fade" data-bs-ride="carousel"> 
+				<div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="https://cdn.pixabay.com/photo/2013/07/18/10/55/outer-space-163458_1280.jpg" alt="Interestelar">
+                        <div class="carousel-caption">
+                            <h2> Interestelar </h2>
+                            <p> As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo... </p>
+                            <button class="btn btn-primary btn-lg"> 
+                                <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiR7N2X9cP_AhWlOtQBHQy_BaAYABAAGgJvYQ&ase=2&ohost=www.google.com&cid=CAESbOD2iIYhWYeClZUVS_cxLGdxOLgk0nsrfeRF-s9DedO84jvvyOuUln4IbN-EMEAU3DO3m7sXnwx7yOJCNyns2yPAXeHbe0kBNavhSDPWqEhjvyMxRcTZK7zswibqvBrrdVHdThi6Q4xsVJcVkg&sig=AOD64_2It2kXNpO_imCcSOFd43mP1sx70g&q&nis=4&adurl&ved=2ahUKEwiC_c-X9cP_AhURr5UCHY8tAroQ0Qx6BAgHEAE">Assistir </a> 
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://cdn.pixabay.com/photo/2017/04/04/19/47/ship-2202910_1280.jpg" alt="Piratas do Caribe">
+                        <div class="carousel-caption">
+                            <h2> Piratas do Caribe</h2>
+                            <p> O pirata Jack Sparrow tem seu navio saqueado e roubado pelo capitão Barbossa e sua tripulação. Com o navio de Sparrow, Barbossa invade a cidade de Port Royal, levando consigo Elizabeth Swann, filha do governador. Para recuperar sua embarcação... </p>
+                            <button class="btn btn-primary btn-lg"> 
+                                <a href="https://www.primevideo.com/detail/Piratas-do-Caribe-A-Maldi%C3%A7%C3%A3o-do-P%C3%A9rola-Negra/0S80FRWRWDK6UB01FHSAGUJYS3/ref=atv_nb_lcl_pt_PT?language=pt_PT&ie=UTF8">Assistir </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000" >
+                        <img src="https://cdn.pixabay.com/photo/2017/10/31/15/16/halloween-2905531_1280.jpg" alt="Halloween">
+                        <div class="carousel-caption">
+                            <h2> Halloween </h2>
+                            <p> Depois de seu último encontro com Michael Myers, Laurie Strode finalmente decide se libertar e abraçar a vida. No entanto, um assassinato local desencadeia uma onda de violência e terror, forçando-a a enfrentar o mal que ela não pode controlar.... </p>
+                            <button class="btn btn-primary btn-lg"> 
+                                <a href="https://www.justwatch.com/br/filme/halloween">Assistir </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <button data-bs-target="#carrosselImagem" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carrosselImagem" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carrosselImagem" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carrosselImagem" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carrosselImagem" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <h3 id="ultimosLancamentos"> Últimos lançamentos</h3>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-header"> 
+                       O Amigo da vizinhança
+                    </div>
+                    <img src="https://cdn.pixabay.com/photo/2021/02/09/16/10/spider-man-5998998_1280.png" class="img-fluid" alt="Homem-aranha no aranhaverso">
+                    <div class="card-body">
+                        <h4 class="card-title"> Homem-aranha no Aranhaverso</h4>
+                        <h5 class="card-subtitle">2018</h5>
+                        <p class="card-text">Após ser atingido por uma teia radioativa, Miles Morales, um jovem negro do Brooklyn, se torna o Homem-Aranha, inspirado no legado do já falecido Peter Parker. Entretanto, ao visitar o túmulo de seu ídolo em uma noite chuvosa, ele é surpreendido com a presença do próprio Peter...</p>
+                        <a href="#" class="btn btn-primary"> Assistir </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-header"> 
+                       O Velocista Escarlate
+                    </div>
+                    <img src="https://cdn.pixabay.com/photo/2023/01/09/01/15/flash-7706360_1280.png" class="img-fluid" alt="Homem-aranha no aranhaverso">
+                    <div class="card-body">
+                        <h4 class="card-title"> The Flash</h4>
+                        <h5 class="card-subtitle">2023</h5>
+                        <p class="card-text">Os mundos colidem quando Flash viaja no tempo para mudar os eventos do passado. No entanto, quando sua tentativa de salvar sua família altera o futuro, ele fica preso em uma realidade na qual o General Zod voltou, ameaçando a aniquilação....</p>
+                        <br>
+                        <a href="#" class="btn btn-primary"> Assistir </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-header"> 
+                        Optimus em seu "PRIME"
+                    </div>
+                    <img src="https://cdn.pixabay.com/photo/2014/03/25/15/20/robot-296534_1280.png" class="img-fluid" alt="Homem-aranha no aranhaverso">
+                    <div class="card-body">
+                        <h4 class="card-title"> Transformers: O Despertar das Feras</h4>
+                        <h5 class="card-subtitle">2023</h5>
+                        <p class="card-text">Uma nova ameaça capaz de destruir todo o planeta surge fazendo com que Optimus Prime e os Autobots se unam a uma poderosa facção de Transformers conhecida como Maximals para salvar a Terra...</p>
+                        <br>
+                        <a href="#" class="btn btn-primary"> Assistir </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-header"> 
+                       O Amigo da vizinhança
+                    </div>
+                    <img src="https://cdn.pixabay.com/photo/2021/02/09/16/10/spider-man-5998998_1280.png" class="img-fluid" alt="Homem-aranha no aranhaverso">
+                    <div class="card-body">
+                        <h4 class="card-title"> Homem-aranha no Aranhaverso</h4>
+                        <h5 class="card-subtitle">2018</h5>
+                        <p class="card-text">Após ser atingido por uma teia radioativa, Miles Morales, um jovem negro do Brooklyn, se torna o Homem-Aranha, inspirado no legado do já falecido Peter Parker. Entretanto, ao visitar o túmulo de seu ídolo em uma noite chuvosa, ele é surpreendido com a presença do próprio Peter...</p>
+                        <a href="#" class="btn btn-primary"> Assistir </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-header"> 
+                       O Velocista Escarlate
+                    </div>
+                    <img src="https://cdn.pixabay.com/photo/2023/01/09/01/15/flash-7706360_1280.png" class="img-fluid" alt="Homem-aranha no aranhaverso">
+                    <div class="card-body">
+                        <h4 class="card-title"> The Flash</h4>
+                        <h5 class="card-subtitle">2023</h5>
+                        <p class="card-text">Os mundos colidem quando Flash viaja no tempo para mudar os eventos do passado. No entanto, quando sua tentativa de salvar sua família altera o futuro, ele fica preso em uma realidade na qual o General Zod voltou, ameaçando a aniquilação....</p>
+                        <br>
+                        <a href="#" class="btn btn-primary"> Assistir </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-header"> 
+                        Optimus em seu "PRIME"
+                    </div>
+                    <img src="https://cdn.pixabay.com/photo/2014/03/25/15/20/robot-296534_1280.png" class="img-fluid" alt="Homem-aranha no aranhaverso">
+                    <div class="card-body">
+                        <h4 class="card-title"> Transformers: O Despertar das Feras</h4>
+                        <h5 class="card-subtitle">2023</h5>
+                        <p class="card-text">Uma nova ameaça capaz de destruir todo o planeta surge fazendo com que Optimus Prime e os Autobots se unam a uma poderosa facção de Transformers conhecida como Maximals para salvar a Terra...</p>
+                        <br>
+                        <a href="#" class="btn btn-primary"> Assistir </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+    <footer class="text-center text-lg-start bg-white text-muted">
+        <section id="redes" class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <div class="me-5 d-none d-lg-block">
+            <span>Nos siga nas redes:</span>
+          </div>
+          <div>
+            <a href="https://www.facebook.com/" class="me-4 link-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                  </svg>
+            </a>
+            <a href="https://twitter.com/home" class="me-4 link-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                  </svg>
+            </a>
+            <a href="https://www.instagram.com/" class="me-4 link-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg>
+            </a>
+          </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+          © 2023:
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Coutoflix.com</a>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
